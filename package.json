@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --watch src --exec \"ts-node --esm src/server.ts\"",
+    "dev": "nodemon --watch src --exec \"ts-node src/server.ts\"",
     "start": "ts-node src/server.ts"
   },
   "keywords": [],
@@ -26,8 +26,5 @@
     "nodemon": "^3.1.14",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
-  },
-  "scripts": {
-  "dev": "nodemon --exec ts-node src/server.ts"
   }
 }
